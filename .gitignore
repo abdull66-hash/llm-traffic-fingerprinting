@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Raw packet captures (can be large; keep locally, don't commit)
+data/raw_captures/*.pcap
+data/raw_captures/*.pcapng
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
