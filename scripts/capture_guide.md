@@ -60,3 +60,33 @@ Before every capture session:
 - Perfect isolation from OS-level background traffic isn't guaranteed even with
   the steps above; some residual noise is expected and should be acknowledged
   in the README's limitations section.
+
+
+  
+## Task-Type Prompts
+
+### 1. Short Q&A (single-turn factual)
+Pattern: "What is [topic]?" or "When did [event] happen?"
+Examples to rotate through:
+- "What is the capital of Kenya?"
+- "When was the Eiffel Tower built?"
+- "What causes the northern lights?"
+- "How many moons does Jupiter have?"
+- "What is the boiling point of water at sea level?"
+
+### 2. Long-form generation (essay/article)
+Pattern: "Write a [length]-word article about [topic]."
+Examples to rotate through:
+- "Write a 500-word article about the history of the printing press."
+- "Write a 500-word article about the causes of the 2008 financial crisis."
+- "Write a 500-word article about how vaccines work."
+- "Write a 500-word article about the future of renewable energy."
+- "Write a 500-word article about the decline of the Roman Empire."
+
+### 3. Code generation
+Pattern: "Write a Python function that [task]."
+Examples to rotate through:
+- "Write a Python function that checks if a string is a palindrome."
+- "Write a Python function that finds the nth Fibonacci number."
+- "Write a Python function that sorts a list of dictionaries by a given key."
+- "Write a Python function that removes duplicates from a list while preserving
