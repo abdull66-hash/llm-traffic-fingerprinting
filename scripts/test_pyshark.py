@@ -3,7 +3,7 @@ asyncio.set_event_loop(asyncio.new_event_loop())
 
 import pyshark
 
-cap = pyshark.FileCapture("data/raw_captures/test_capture.pcapng")
+cap = pyshark.FileCapture("data/raw_captures/chatgpt_shortqa_01.pcapng")
 
 count = 0
 for packet in cap:
