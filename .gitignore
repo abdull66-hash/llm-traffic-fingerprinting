@@ -16,3 +16,4 @@ data/raw_captures/*.pcapng
 .DS_Store
 Thumbs.db
 Papers/
+data/raw_captures_archive/
