@@ -1,7 +1,10 @@
 # Session Log
 
+## Network B (current Wi-Fi, collection restarted)
+
 | Filename | Platform | Task Type | Prompt Used | Packet Count | Notes |
 |---|---|---|---|---|---|
-| chatgpt_shortqa_01.pcapng | ChatGPT | Short Q&A | What is the capital of Kenya? | 576 | Watched full response start to finish |
-| chatgpt_shortqa_02.pcapng | ChatGPT | Short Q&A | What is the capital of Kenya? | 572 | Watched full response start to finish |
-| chatgpt_longform_01.pcapng | ChatGPT | Long-form | Write a 500-word article about the history of the printing press. | 888 | Watched full response start to finish; redo of an earlier truncated attempt |
+
+## Network A (archived in data/raw_captures_archive, not committed)
+
+Six ChatGPT captures taken on the earlier Wi-Fi network: shortqa_01, shortqa_02, longform_01, codegen_01, codegen_02, codegen_03. Per-file packet counts were not reliably recorded, so re-read them from the files if needed. Kept as a separate network condition.
